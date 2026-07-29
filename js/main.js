@@ -7,7 +7,20 @@ document.addEventListener('DOMContentLoaded', () => {
     initCounters();
     initFAQ();
     initForms();
+    initFormSuccess();
 });
+
+function initFormSuccess() {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('sent') === '1') {
+        const status = document.querySelector('.form-status');
+        if (status) {
+            status.className = 'form-status success';
+            status.textContent = 'Thank you! Your enquiry has been sent. We\'ll be in touch shortly.';
+            status.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+    }
+}
 
 function initNav() {
     const toggle = document.getElementById('navToggle');

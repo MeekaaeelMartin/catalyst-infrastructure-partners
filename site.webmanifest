@@ -1,0 +1,17 @@
+{
+  "name": "Catalyst Infrastructure Partners",
+  "short_name": "Catalyst",
+  "description": "Fully funded distributed energy solutions across Southern Africa. Connecting Capital | Powering Infrastructure | Building Value.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1a2e",
+  "theme_color": "#1a2744",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

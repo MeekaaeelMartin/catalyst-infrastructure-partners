@@ -16,7 +16,7 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="index.html" class="nav-logo">
-                <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners">
+                <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners - Connecting Capital Powering Infrastructure Building Value" width="200" height="48">
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
@@ -34,13 +34,13 @@
         <div class="container partner-bar-inner">
             <span class="partner-bar-label">Prepared For</span>
             <div class="partner-bar-logos">
-                <img src="assets/logos/ipic-group.svg" alt="Ipic Group">
+                <img src="assets/logos/ipic-group.svg" alt="Ipic Group institutional property portfolio partner" width="120" height="32">
                 <span class="partner-divider"></span>
-                <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners">
+                <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners commercial energy leadership" width="180" height="32">
                 <span class="partner-divider"></span>
-                <img src="assets/logos/opele-energy.svg" alt="Opele Energy">
+                <img src="assets/logos/opele-energy.svg" alt="Opele Energy funding and delivery partner" width="120" height="32">
                 <span class="partner-divider"></span>
-                <img src="assets/logos/jade-sky.svg" alt="Jade-Sky">
+                <img src="assets/logos/jade-sky.svg" alt="Jade-Sky engineering and EPC delivery partner" width="120" height="32">
             </div>
         </div>
     </div>`;
@@ -66,6 +66,7 @@
                     <a href="process.html">Our Process</a>
                     <a href="services.html#outcomes">Outcomes</a>
                     <a href="contact.html">Get a Quote</a>
+                    <a href="sitemap.xml">Sitemap</a>
                 </div>
                 <div class="footer-col">
                     <h4>Partners</h4>
