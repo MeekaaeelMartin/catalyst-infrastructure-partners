@@ -3,102 +3,100 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catalyst Infrastructure Partners | Unlocking the Full Value of Distributed Energy</title>
-    <meta name="description" content="Catalyst Infrastructure Partners - Connecting Capital, Powering Infrastructure, Building Value. Fully funded distributed energy solutions across Southern Africa.">
+    <title>Catalyst Infrastructure Partners | Distributed Energy Solutions</title>
+    <meta name="description" content="Unlock the full value of distributed energy. Catalyst Infrastructure Partners delivers fully funded solar and renewable energy solutions across Southern Africa.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="icon" href="assets/logos/catalyst-dark.svg" type="image/svg+xml">
 </head>
-<body>
-    <!-- Navigation -->
-    <nav class="navbar" id="navbar">
-        <div class="container nav-container">
-            <a href="#" class="nav-logo">
-                <img src="assets/catalyst-logo.png" alt="Catalyst Infrastructure Partners" class="logo-img">
-            </a>
-            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links" id="navLinks">
-                <li><a href="#about">About</a></li>
-                <li><a href="#opportunity">Opportunity</a></li>
-                <li><a href="#process">Process</a></li>
-                <li><a href="#partnership">Partnership</a></li>
-                <li><a href="#outcomes">Outcomes</a></li>
-                <li><a href="#capability">Track Record</a></li>
-                <li><a href="#contact" class="nav-cta">Contact Us</a></li>
-            </ul>
-        </div>
-    </nav>
+<body data-page="home" class="page-loading">
+    <div id="site-nav"></div>
+    <div id="partner-bar"></div>
 
-    <!-- Hero Section -->
-    <section class="hero" id="hero">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
+    <!-- Hero -->
+    <section class="page-hero hero-home animated-gradient hero-animate">
+        <div class="container hero-grid">
             <div class="hero-text">
                 <h1>Unlocking the Full Value of <span class="text-green">Distributed Energy.</span></h1>
-                <p class="hero-subtitle">A funded partnership that transforms energy from a cost burden into a driver of long-term value.</p>
-                <p class="hero-tagline">Unlocking long-term value through fully funded distributed energy solutions.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
-                    <a href="#process" class="btn btn-outline">Our Process</a>
+                <span class="hero-line"></span>
+                <p>A funded partnership that transforms energy from a cost burden into a driver of long-term value for institutional property portfolios.</p>
+                <p style="font-size:0.95rem;opacity:0.65;font-style:italic;margin-bottom:28px;">Unlocking long-term value through fully funded distributed energy solutions.</p>
+                <div class="btn-group">
+                    <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+                    <a href="process.html" class="btn btn-outline">Our Process</a>
+                </div>
+                <div class="hero-stat-pills reveal">
+                    <span class="stat-pill"><strong>605 MW</strong> Total Portfolio</span>
+                    <span class="stat-pill"><strong>100%</strong> Funded Solutions</span>
+                    <span class="stat-pill"><strong>End-to-End</strong> Delivery</span>
                 </div>
             </div>
-            <div class="hero-partners">
-                <img src="assets/catalyst-logo.png" alt="Catalyst Infrastructure Partners">
-                <img src="assets/opele-logo.png" alt="Opele Energy">
+            <div class="hero-visual float-slow">
+                <div class="hero-visual-inner">
+                    <svg class="hero-solar-icon" viewBox="0 0 80 80" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="10" y="40" width="60" height="30" rx="2"/>
+                        <line x1="10" y1="50" x2="70" y2="50"/><line x1="10" y1="60" x2="70" y2="60"/>
+                        <line x1="30" y1="40" x2="30" y2="70"/><line x1="50" y1="40" x2="50" y2="70"/>
+                        <circle cx="40" cy="20" r="12"/><line x1="40" y1="4" x2="40" y2="10"/>
+                        <line x1="24" y1="10" x2="28" y2="15"/><line x1="56" y1="10" x2="52" y2="15"/>
+                        <line x1="16" y1="24" x2="22" y2="26"/><line x1="64" y1="24" x2="58" y2="26"/>
+                    </svg>
+                    <p style="text-align:center;font-size:0.9rem;opacity:0.8;">Utility-scale distributed energy<br>across Southern Africa</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Opportunity Section -->
-    <section class="section" id="opportunity">
+    <!-- Opportunity Preview -->
+    <section class="section section-gray">
         <div class="container">
-            <h2 class="section-title">The Opportunity Across <span class="text-green">Institutional Portfolios.</span></h2>
-            <div class="cards-grid four-col">
+            <div class="section-header reveal">
+                <span class="section-label">The Opportunity</span>
+                <h2 class="section-title">The Opportunity Across <span class="text-green">Institutional Portfolios.</span></h2>
+                <p class="section-subtitle">Energy is no longer just an operating cost — it is a strategic asset that can drive portfolio performance, resilience, and ESG outcomes.</p>
+            </div>
+            <div class="cards-grid four-col stagger-children reveal">
                 <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="16"/><text x="24" y="28" text-anchor="middle" fill="currentColor" font-size="16" stroke="none">$</text></svg>
-                    </div>
+                    <div class="card-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="16"/><text x="24" y="29" text-anchor="middle" fill="currentColor" font-size="16" stroke="none">$</text></svg></div>
                     <h3>Rising Energy Costs</h3>
-                    <p>Energy expenses continue to escalate, impacting net operating income.</p>
+                    <p>Energy expenses continue to escalate, directly impacting net operating income across property portfolios.</p>
                 </div>
                 <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4 L24 4 C33 4 40 11 40 20 C40 32 24 44 24 44 C24 44 8 32 8 20 C8 11 15 4 24 4Z"/><path d="M18 20 L22 24 L30 16"/></svg>
-                    </div>
+                    <div class="card-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4 C33 4 40 11 40 20 C40 32 24 44 24 44 C24 44 8 32 8 20 C8 11 15 4 24 4Z"/><path d="M18 20 L22 24 L30 16"/></svg></div>
                     <h3>Asset Resilience</h3>
-                    <p>Energy independence reduces risk and enhances operational resilience.</p>
+                    <p>Energy independence reduces risk and enhances operational resilience during grid instability.</p>
                 </div>
                 <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6 C20 6 16 10 16 14 L16 18 C12 20 10 24 12 28 C14 32 18 34 22 32 L24 44 L26 32 C30 34 34 32 36 28 C38 24 36 20 32 18 L32 14 C32 10 28 6 24 6Z"/></svg>
-                    </div>
+                    <div class="card-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 6 C20 6 16 10 16 14 L16 18 C12 20 10 24 12 28 C14 32 18 34 22 32 L24 44 L26 32 C30 34 34 32 36 28 C38 24 36 20 32 18 L32 14 C32 10 28 6 24 6Z"/></svg></div>
                     <h3>ESG Commitments</h3>
-                    <p>Accelerate sustainability goals and reduce carbon footprint.</p>
+                    <p>Accelerate sustainability goals, reduce carbon footprint, and meet investor ESG requirements.</p>
                 </div>
                 <div class="card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="28" width="8" height="14"/><rect x="20" y="18" width="8" height="24"/><rect x="34" y="8" width="8" height="34"/><path d="M10 10 L38 6" stroke-dasharray="2 2"/></svg>
-                    </div>
+                    <div class="card-icon"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="28" width="8" height="14"/><rect x="20" y="18" width="8" height="24"/><rect x="34" y="8" width="8" height="34"/></svg></div>
                     <h3>Value Creation</h3>
-                    <p>Improve asset value and attract quality tenants and investors.</p>
+                    <p>Improve asset value, enhance NOI, and attract quality tenants and institutional investors.</p>
                 </div>
+            </div>
+            <div style="text-align:center;margin-top:40px;" class="reveal">
+                <a href="about.html" class="btn btn-outline-dark">Learn More About Us</a>
             </div>
         </div>
     </section>
 
-    <!-- About / Why Catalyst -->
-    <section class="section section-dark" id="about">
+    <!-- Why Catalyst -->
+    <section class="section section-dark">
         <div class="container">
-            <h2 class="section-title">Why <span class="text-green">Catalyst?</span></h2>
-            <p class="section-subtitle">We combine commercial leadership, institutional capital and delivery excellence to unlock long-term value for your property portfolio.</p>
-            <div class="cards-grid three-col">
+            <div class="section-header reveal">
+                <span class="section-label">Why Catalyst</span>
+                <h2 class="section-title">Why <span class="text-green">Catalyst?</span></h2>
+                <p class="section-subtitle">We combine commercial leadership, institutional capital and delivery excellence to unlock long-term value for your property portfolio.</p>
+            </div>
+            <div class="cards-grid three-col stagger-children reveal">
                 <div class="card card-bordered">
-                    <div class="card-icon-sm">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="20" width="32" height="22" rx="2"/><path d="M8 28 L24 28 L24 42"/><path d="M16 8 L32 8 L40 20 L8 20 L16 8Z"/></svg>
-                    </div>
+                    <div class="card-icon-sm"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="8" y="28" width="32" height="14" rx="2"/><path d="M16 28 L24 14 L32 28"/></svg></div>
                     <h3>Commercial Leadership</h3>
                     <ul class="check-list">
                         <li>Opportunity origination</li>
@@ -108,9 +106,7 @@
                     </ul>
                 </div>
                 <div class="card card-bordered">
-                    <div class="card-icon-sm">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="10" y="20" width="28" height="22" rx="2"/><path d="M10 28 L38 28"/><path d="M18 20 L18 14 L30 14 L30 20"/><path d="M18 14 L18 8 L30 8 L30 14"/></svg>
-                    </div>
+                    <div class="card-icon-sm"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="10" y="20" width="28" height="22" rx="2"/><path d="M18 20 L18 12 L30 12 L30 20"/></svg></div>
                     <h3>Funded Solutions</h3>
                     <ul class="check-list">
                         <li>Institutional capital</li>
@@ -120,9 +116,7 @@
                     </ul>
                 </div>
                 <div class="card card-bordered">
-                    <div class="card-icon-sm">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="18"/><path d="M24 12 L24 24 L34 28"/><path d="M16 36 L20 32 L24 36 L28 30 L32 34"/></svg>
-                    </div>
+                    <div class="card-icon-sm"><svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><circle cx="24" cy="24" r="18"/><path d="M24 12 L24 24 L34 28"/></svg></div>
                     <h3>Delivery Excellence</h3>
                     <ul class="check-list">
                         <li>605 MW portfolio</li>
@@ -132,284 +126,84 @@
                     </ul>
                 </div>
             </div>
-            <div class="why-matters">
-                <h3>Why This Matters</h3>
-                <div class="matters-grid">
-                    <div class="matter-item"><span class="matter-icon">&#9733;</span><span>Preserve capital</span></div>
-                    <div class="matter-item"><span class="matter-icon">&#9733;</span><span>Improve portfolio performance</span></div>
-                    <div class="matter-item"><span class="matter-icon">&#9733;</span><span>Unlock new revenue streams</span></div>
-                    <div class="matter-item"><span class="matter-icon">&#9733;</span><span>Increase resilience</span></div>
-                    <div class="matter-item"><span class="matter-icon">&#9733;</span><span>Deliver measurable ESG outcomes</span></div>
-                </div>
-            </div>
-            <p class="section-footer-text">One commercial partner. One integrated solution. <span class="text-green">Long-term portfolio value.</span></p>
+            <p class="section-footer-text reveal">One commercial partner. One integrated solution. <span class="text-green">Long-term portfolio value.</span></p>
         </div>
     </section>
 
-    <!-- Partnership Section -->
-    <section class="section" id="partnership">
+    <!-- Process Preview -->
+    <section class="section">
         <div class="container">
-            <h2 class="section-title">One <span class="text-green">Integrated</span> Partnership.</h2>
-            <p class="section-subtitle">Unlocking value through clearly defined commercial and delivery responsibilities.</p>
-            <div class="partnership-flow">
-                <div class="partner-card">
-                    <div class="partner-logo-placeholder">
-                        <img src="assets/catalyst-logo.png" alt="Catalyst" class="partner-logo-small">
-                    </div>
-                    <h3>Catalyst</h3>
-                    <p class="partner-role">Commercial Leadership</p>
-                    <ul class="check-list">
-                        <li>Originate opportunities</li>
-                        <li>Portfolio assessment</li>
-                        <li>Commercial structuring</li>
-                        <li>Investment case development</li>
-                        <li>Client relationship leadership</li>
-                    </ul>
-                </div>
-                <div class="flow-arrow">
-                    <div class="flow-box">
-                        <div class="flow-step">
-                            <strong>Catalyst</strong>
-                            <span>Commercial Leadership</span>
-                        </div>
-                        <div class="flow-arrow-down">&#8595;</div>
-                        <div class="flow-step">
-                            <strong>Opportunity</strong>
-                        </div>
-                        <div class="flow-arrow-down">&#8595;</div>
-                        <div class="flow-step highlight">
-                            <strong>Opele | Jade-Sky</strong>
-                            <span>Integrated Delivery</span>
-                        </div>
-                        <div class="flow-arrow-down">&#8595;</div>
-                        <div class="flow-step">
-                            <strong>Long-term Portfolio Value</strong>
-                        </div>
-                    </div>
-                </div>
-                <div class="partner-card">
-                    <div class="partner-logo-placeholder">
-                        <img src="assets/opele-logo.png" alt="Opele | Jade-Sky" class="partner-logo-small opele-bg">
-                    </div>
-                    <h3>Opele | Jade-Sky</h3>
-                    <p class="partner-role">Integrated Delivery Partner</p>
-                    <ul class="check-list">
-                        <li>Funding solutions</li>
-                        <li>Engineering & Design</li>
-                        <li>EPC / EPCM Delivery</li>
-                        <li>Commissioning</li>
-                        <li>Long-term optimisation & support</li>
-                    </ul>
-                </div>
+            <div class="section-header reveal">
+                <span class="section-label">Our Process</span>
+                <h2 class="section-title">From Opportunity <span class="text-green">To Value.</span></h2>
+                <p class="section-subtitle">A seamless end-to-end process that converts opportunities into long-term value.</p>
             </div>
-            <p class="section-footer-text">Catalyst identifies and structures the opportunity. <span class="text-green">Opele | Jade-Sky</span> funds, engineers and delivers the solution.</p>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="section section-dark" id="process">
-        <div class="container">
-            <h2 class="section-title">From Opportunity <span class="text-green">To Value.</span></h2>
-            <p class="section-subtitle">A seamless end-to-end process that converts opportunities into long-term value.</p>
-            <div class="process-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <div class="step-icon">
-                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><circle cx="28" cy="28" r="18"/><path d="M40 40 L56 56" stroke-width="4" stroke-linecap="round"/></svg>
-                    </div>
-                    <h3>Originate</h3>
-                    <p>Identify and assess energy opportunities across your property portfolio.</p>
-                </div>
-                <div class="step-arrow">&#8594;</div>
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <div class="step-icon">
-                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><rect x="12" y="8" width="40" height="48" rx="4"/><path d="M22 20 L42 20"/><path d="M22 28 L42 28"/><path d="M22 36 L36 36"/><path d="M22 44 L30 44"/></svg>
-                    </div>
-                    <h3>Structure</h3>
-                    <p>Design the optimal technical, commercial and financial solution.</p>
-                </div>
-                <div class="step-arrow">&#8594;</div>
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <div class="step-icon">
-                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="32" cy="44" rx="16" ry="4"/><ellipse cx="32" cy="36" rx="16" ry="4"/><ellipse cx="32" cy="28" rx="16" ry="4"/><ellipse cx="32" cy="20" rx="16" ry="4"/></svg>
-                    </div>
-                    <h3>Fund</h3>
-                    <p>100% funded solution preserving your capital for core investments.</p>
-                </div>
-                <div class="step-arrow">&#8594;</div>
-                <div class="step">
-                    <div class="step-number">4</div>
-                    <div class="step-icon">
-                        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><circle cx="32" cy="32" r="22"/><path d="M32 14 L32 32 L44 32"/><circle cx="32" cy="32" r="4" fill="currentColor"/></svg>
-                    </div>
-                    <h3>Deliver</h3>
-                    <p>Engineering, construction and operations for long-term performance.</p>
-                </div>
+            <div class="process-steps reveal">
+                <div class="step"><div class="step-number">1</div><div class="step-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><circle cx="28" cy="28" r="18"/><path d="M40 40 L56 56" stroke-width="3"/></svg></div><h3>Originate</h3><p>Identify and assess energy opportunities across your property portfolio.</p></div>
+                <div class="step-arrow" style="color:var(--gray-300);">&#8594;</div>
+                <div class="step"><div class="step-number">2</div><div class="step-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><rect x="12" y="8" width="40" height="48" rx="4"/><path d="M22 20 L42 20 M22 28 L42 28 M22 36 L36 36"/></svg></div><h3>Structure</h3><p>Design the optimal technical, commercial and financial solution.</p></div>
+                <div class="step-arrow" style="color:var(--gray-300);">&#8594;</div>
+                <div class="step"><div class="step-number">3</div><div class="step-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="32" cy="44" rx="16" ry="4"/><ellipse cx="32" cy="36" rx="16" ry="4"/><ellipse cx="32" cy="28" rx="16" ry="4"/><ellipse cx="32" cy="20" rx="16" ry="4"/></svg></div><h3>Fund</h3><p>100% funded solution preserving your capital for core investments.</p></div>
+                <div class="step-arrow" style="color:var(--gray-300);">&#8594;</div>
+                <div class="step"><div class="step-number">4</div><div class="step-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><circle cx="32" cy="32" r="22"/><path d="M32 14 L32 32 L44 32"/></svg></div><h3>Deliver</h3><p>Engineering, construction and operations for long-term performance.</p></div>
+            </div>
+            <div style="text-align:center;margin-top:48px;" class="reveal">
+                <a href="process.html" class="btn btn-primary">Explore Our Process</a>
             </div>
         </div>
     </section>
 
-    <!-- Outcomes Section -->
-    <section class="section" id="outcomes">
+    <!-- Stats -->
+    <section class="section section-dark">
         <div class="container">
-            <h2 class="section-title">Delivering <span class="text-green">Measurable Outcomes.</span></h2>
-            <p class="section-subtitle">Our solutions create tangible and lasting value across your property portfolio.</p>
-            <div class="cards-grid five-col">
-                <div class="outcome-card">
-                    <div class="outcome-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 8 L24 40"/><path d="M16 16 L24 8 L32 16"/></svg>
-                    </div>
-                    <h3>Lower Operating Costs</h3>
-                    <p>Reduce and stabilise energy expenditure.</p>
-                </div>
-                <div class="outcome-card">
-                    <div class="outcome-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M24 4 C33 4 40 11 40 20 C40 32 24 44 24 44 C24 44 8 32 8 20 C8 11 15 4 24 4Z"/><path d="M18 20 L22 24 L30 16"/></svg>
-                    </div>
-                    <h3>Greater Resilience</h3>
-                    <p>Reliable power when you need it most.</p>
-                </div>
-                <div class="outcome-card">
-                    <div class="outcome-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="32" width="8" height="10"/><rect x="20" y="22" width="8" height="20"/><rect x="34" y="12" width="8" height="30"/><path d="M8 8 L40 4" stroke-dasharray="2 2"/></svg>
-                    </div>
-                    <h3>New Revenue Streams</h3>
-                    <p>Monetise excess energy and unlock additional income.</p>
-                </div>
-                <div class="outcome-card">
-                    <div class="outcome-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><rect x="10" y="18" width="28" height="24" rx="2"/><path d="M10 26 L38 26"/><path d="M18 18 L18 10 L30 10 L30 18"/></svg>
-                    </div>
-                    <h3>Higher Asset Value</h3>
-                    <p>Improve NOI and enhance property valuations.</p>
-                </div>
-                <div class="outcome-card">
-                    <div class="outcome-icon">
-                        <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 32 L22 26 L28 30 L36 16"/><path d="M30 16 L36 16 L36 22"/></svg>
-                    </div>
-                    <h3>Preserved Capital</h3>
-                    <p>Off-balance sheet funding preserves borrowing capacity.</p>
-                </div>
+            <div class="section-header reveal">
+                <span class="section-label">Track Record</span>
+                <h2 class="section-title">Utility Scale <span class="text-green">Capability.</span></h2>
+                <p class="section-subtitle">Proven track record in delivering and managing large scale distributed energy solutions across Southern Africa.</p>
+            </div>
+            <div class="stats-grid stagger-children reveal">
+                <div class="stat"><span class="stat-number" data-target="280">0</span><span class="stat-unit">MW</span><h3>Operational</h3><p>Commissioned and generating value.</p></div>
+                <div class="stat"><span class="stat-number" data-target="325">0</span><span class="stat-unit">MW</span><h3>Under Construction</h3><p>Projects in delivery across the region.</p></div>
+                <div class="stat"><span class="stat-number" data-target="605">0</span><span class="stat-unit">MW</span><h3>Total Portfolio</h3><p>A growing portfolio of high-quality assets.</p></div>
+                <div class="stat"><span class="stat-number" data-target="1440">0</span><span class="stat-unit">MW</span><h3>In the Pipeline</h3><p>Advanced pipeline of high-quality assets.</p></div>
+            </div>
+            <div style="text-align:center;margin-top:40px;" class="reveal">
+                <a href="track-record.html" class="btn btn-outline">View Full Track Record</a>
             </div>
         </div>
     </section>
 
-    <!-- Capability / Track Record Section -->
-    <section class="section section-dark" id="capability">
+    <!-- Partner Logos -->
+    <section class="section section-gray">
         <div class="container">
-            <h2 class="section-title">Utility Scale <span class="text-green">Capability.</span></h2>
-            <p class="section-subtitle">Proven track record in delivering and managing large scale distributed energy solutions across Southern Africa.</p>
-            <div class="capability-badge">
-                <div class="badge-text">
-                    <p>End-to-end expertise.</p>
-                    <p>Fully funded.</p>
-                    <p>Built to last.</p>
-                </div>
+            <div class="section-header reveal">
+                <span class="section-label">Integrated Partnership</span>
+                <h2 class="section-title">One <span class="text-green">Integrated</span> Partnership.</h2>
+                <p class="section-subtitle">Catalyst, Opele Energy, and Jade-Sky work together to deliver a seamless, fully funded energy solution.</p>
             </div>
-            <div class="stats-grid">
-                <div class="stat">
-                    <span class="stat-number" data-target="280">0</span>
-                    <span class="stat-unit">MW</span>
-                    <h3>Operational</h3>
-                    <p>Commissioned and generating value.</p>
-                </div>
-                <div class="stat">
-                    <span class="stat-number" data-target="325">0</span>
-                    <span class="stat-unit">MW</span>
-                    <h3>Under Construction</h3>
-                    <p>Projects in delivery across the region.</p>
-                </div>
-                <div class="stat">
-                    <span class="stat-number" data-target="605">0</span>
-                    <span class="stat-unit">MW</span>
-                    <h3>Total Portfolio</h3>
-                    <p>A growing portfolio of high-quality assets.</p>
-                </div>
-                <div class="stat">
-                    <span class="stat-number" data-target="1440">0</span>
-                    <span class="stat-unit">MW</span>
-                    <h3>In the Pipeline</h3>
-                    <p>Advanced pipeline of high-quality assets.</p>
-                </div>
+            <div class="cards-grid four-col reveal">
+                <div class="logo-card light"><img src="assets/logos/catalyst-dark.svg" alt="Catalyst Infrastructure Partners"></div>
+                <div class="logo-card"><img src="assets/logos/opele-energy.svg" alt="Opele Energy"></div>
+                <div class="logo-card"><img src="assets/logos/jade-sky.svg" alt="Jade-Sky"></div>
+                <div class="logo-card"><img src="assets/logos/ipic-group.svg" alt="Ipic Group"></div>
+            </div>
+            <div style="text-align:center;margin-top:40px;" class="reveal">
+                <a href="partnership.html" class="btn btn-outline-dark">Learn About Our Partnership</a>
             </div>
         </div>
     </section>
 
-    <!-- CTA / Contact Section -->
-    <section class="section section-green" id="contact">
+    <!-- CTA -->
+    <section class="cta-banner reveal-scale">
         <div class="container">
-            <h2 class="section-title">Let's Build the Future <span class="text-white">Together.</span></h2>
-            <p class="section-subtitle">Unlock the full value of your distributed energy portfolio through a fully funded, commercially led solution.</p>
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <div class="contact-card">
-                        <div class="contact-person">
-                            <div class="contact-avatar">MM</div>
-                            <div>
-                                <h4>Mahlatse Mokwatlo</h4>
-                                <a href="tel:0795021668" class="contact-phone">079 502 1668</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-card">
-                        <div class="contact-person">
-                            <div class="contact-avatar">NH</div>
-                            <div>
-                                <h4>Nic Huisman</h4>
-                                <a href="tel:0825522423" class="contact-phone">082 552 2423</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="contact-partners">
-                        <p>Catalyst identifies the opportunity.</p>
-                        <p><span class="text-green-dark">Opele | Jade-Sky</span> funds and delivers the solution.</p>
-                        <p>Together we unlock <strong>long-term portfolio value.</strong></p>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Email Address" required>
-                    <input type="tel" placeholder="Phone Number">
-                    <input type="text" placeholder="Company">
-                    <textarea placeholder="Tell us about your energy needs..." rows="4"></textarea>
-                    <button type="submit" class="btn btn-primary btn-full">Send Enquiry</button>
-                </form>
-            </div>
+            <h2>Let's Build the Future Together.</h2>
+            <p>Unlock the full value of your distributed energy portfolio through a fully funded, commercially led solution.</p>
+            <a href="contact.html" class="btn btn-outline">Contact Us Today</a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <img src="assets/catalyst-logo.png" alt="Catalyst Infrastructure Partners" class="footer-logo">
-                    <p class="footer-tagline">Connecting Capital | Powering Infrastructure | Building Value</p>
-                </div>
-                <div class="footer-links">
-                    <h4>Quick Links</h4>
-                    <a href="#about">About</a>
-                    <a href="#opportunity">Opportunity</a>
-                    <a href="#process">Process</a>
-                    <a href="#partnership">Partnership</a>
-                    <a href="#contact">Contact</a>
-                </div>
-                <div class="footer-partners-logos">
-                    <h4>Our Partners</h4>
-                    <div class="partner-logos-row">
-                        <img src="assets/catalyst-logo.png" alt="Catalyst">
-                        <img src="assets/opele-logo.png" alt="Opele Energy" class="opele-bg-sm">
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 Catalyst Infrastructure Partners. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+    <div id="site-footer"></div>
+    <script src="js/components.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
