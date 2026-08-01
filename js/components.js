@@ -32,15 +32,13 @@
     const partnerBarHTML = `
     <div class="partner-bar">
         <div class="container partner-bar-inner">
-            <span class="partner-bar-label">Prepared For</span>
+            <span class="partner-bar-label">Our Partners</span>
             <div class="partner-bar-logos">
-                <img src="assets/logos/ipic-group.svg" alt="Ipic Group institutional property portfolio partner" width="120" height="32">
-                <span class="partner-divider"></span>
                 <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners commercial energy leadership" width="180" height="32">
                 <span class="partner-divider"></span>
-                <img src="assets/logos/opele-energy.svg" alt="Opele Energy funding and delivery partner" width="120" height="32">
+                <img src="assets/logos/opele-energy-light.png" alt="Opele Energy funding and delivery partner" width="140" height="40">
                 <span class="partner-divider"></span>
-                <img src="assets/logos/jade-sky.svg" alt="Jade-Sky engineering and EPC delivery partner" width="120" height="32">
+                <img src="assets/logos/jade-sky-light.png" alt="Jade-Sky engineering and EPC delivery partner" width="140" height="36">
             </div>
         </div>
     </div>`;
@@ -71,10 +69,9 @@
                 <div class="footer-col">
                     <h4>Partners</h4>
                     <div class="footer-partners">
-                        <img src="assets/logos/catalyst-light.svg" alt="Catalyst">
-                        <img src="assets/logos/opele-energy.svg" alt="Opele Energy">
-                        <img src="assets/logos/jade-sky.svg" alt="Jade-Sky">
-                        <img src="assets/logos/ipic-group.svg" alt="Ipic Group">
+                        <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners">
+                        <img src="assets/logos/opele-energy-light.png" alt="Opele Energy">
+                        <img src="assets/logos/jade-sky-light.png" alt="Jade-Sky">
                     </div>
                 </div>
             </div>

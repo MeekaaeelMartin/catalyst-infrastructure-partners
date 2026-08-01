@@ -224,11 +224,11 @@ a { color: inherit; }
 }
 
 .partner-bar-logos img {
-    height: 28px;
+    height: 36px;
     width: auto;
-    max-width: 140px;
+    max-width: 160px;
     object-fit: contain;
-    opacity: 0.85;
+    opacity: 0.95;
     transition: var(--transition);
 }
 
@@ -883,7 +883,7 @@ a { color: inherit; }
     gap: 10px;
 }
 
-.footer-partners img { height: 28px; width: auto; max-width: 140px; object-fit: contain; opacity: 0.8; }
+.footer-partners img { height: 32px; width: auto; max-width: 150px; object-fit: contain; opacity: 0.9; }
 
 .footer-bottom {
     padding-top: 28px;
