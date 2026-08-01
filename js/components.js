@@ -16,7 +16,7 @@
     <nav class="navbar" id="navbar">
         <div class="container nav-container">
             <a href="index.html" class="nav-logo">
-                <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners - Connecting Capital Powering Infrastructure Building Value" width="200" height="48">
+                <img src="assets/logos/catalyst-compact-light.png" alt="Catalyst Infrastructure Partners" width="160" height="56">
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
                 <span></span><span></span><span></span>
@@ -34,11 +34,17 @@
         <div class="container partner-bar-inner">
             <span class="partner-bar-label">Our Partners</span>
             <div class="partner-bar-logos">
-                <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners commercial energy leadership" width="180" height="32">
+                <div class="partner-logo-wrap">
+                    <img src="assets/logos/catalyst-compact.png" alt="Catalyst Infrastructure Partners" class="partner-logo partner-logo--catalyst">
+                </div>
                 <span class="partner-divider"></span>
-                <img src="assets/logos/opele-energy-light.png" alt="Opele Energy funding and delivery partner" width="140" height="40">
+                <div class="partner-logo-wrap">
+                    <img src="assets/logos/opele-energy.png" alt="Opele Energy" class="partner-logo partner-logo--opele">
+                </div>
                 <span class="partner-divider"></span>
-                <img src="assets/logos/jade-sky-light.png" alt="Jade-Sky engineering and EPC delivery partner" width="140" height="36">
+                <div class="partner-logo-wrap">
+                    <img src="assets/logos/jade-sky.png" alt="Jade-Sky" class="partner-logo partner-logo--jade">
+                </div>
             </div>
         </div>
     </div>`;
@@ -48,7 +54,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-col">
-                    <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners" class="footer-logo">
+                    <img src="assets/logos/catalyst-compact-light.png" alt="Catalyst Infrastructure Partners" class="footer-logo">
                     <p class="footer-tagline">Connecting Capital | Powering Infrastructure | Building Value. Unlocking long-term value through fully funded distributed energy solutions.</p>
                 </div>
                 <div class="footer-col">
@@ -69,7 +75,7 @@
                 <div class="footer-col">
                     <h4>Partners</h4>
                     <div class="footer-partners">
-                        <img src="assets/logos/catalyst-light.svg" alt="Catalyst Infrastructure Partners">
+                        <img src="assets/logos/catalyst-compact-light.png" alt="Catalyst Infrastructure Partners">
                         <img src="assets/logos/opele-energy-light.png" alt="Opele Energy">
                         <img src="assets/logos/jade-sky-light.png" alt="Jade-Sky">
                     </div>
