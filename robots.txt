@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://beautiful-hummingbird-f5bb47.netlify.app/sitemap.xml
+Sitemap: https://catalystinfrastructure.co.za/sitemap.xml
 
 Disallow: /.netlify/
